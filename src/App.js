@@ -20,7 +20,7 @@ function App() {
 <h3 className="bg-dark text-light pt-2 ps-3">Watch it Again</h3>
 <FilmList filmc={"Marvel"}/>
 <h3 className="bg-dark text-light pt-2 ps-3">New Releases</h3>
-<FilmList filmc={"Lord of the Ring"}/>
+<FilmList filmc={"Star Wars"}/>
 
 
       </main>
