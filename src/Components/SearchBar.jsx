@@ -3,13 +3,13 @@ import { Container, Row, Col, NavDropdown } from "react-bootstrap";
 
 const SearchBar = () => (
   <Container fluid className="bg-dark pt-3">
-    <Row>
-      <Col md={4}>
-        <h2 className="text-light">TV Shows</h2>
-      </Col>
+      <Row>
+        <Col sm={2}>
+          <h2 className="text-light">TV Shows</h2>
+</Col>
 
-      <Col md={4}>
-        <NavDropdown
+<Col sm={1}>
+          <NavDropdown
           title="Genres"
           id="basic-nav-dropdown"
           className="border border-light text-light"
@@ -19,13 +19,14 @@ const SearchBar = () => (
           <NavDropdown.Item href="#action/3.3">Horror</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Fantasy</NavDropdown.Item>
         </NavDropdown>
-      </Col>
 
-      <Col md={4}>
-        <h3 className="text-light">::</h3>
-      </Col>
-    </Row>
-  </Container>
+        </Col>
+
+        <Col sm={8} className="text-end">
+          <h3 className="text-light">::</h3>
+        </Col>
+      </Row>
+    </Container>
 );
 
 export default SearchBar;

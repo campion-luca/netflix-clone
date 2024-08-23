@@ -33,11 +33,11 @@ class FilmList extends Component {
         // console.log("E' GIUSTO CAZZO", this.state.test.Search)
         <Container className="mt-4">
       <Row>
-        {this.state.test.Search.slice(0, -4).map((filmsing) => {
+        {this.state.test.Search.map((filmsing) => {
           return (
             <Col xs={12} md={2} key={filmsing.imdbID}>
               <Card className="d-flex flex-column">
-                <Card.Img variant="top" src={filmsing.Poster} />
+                <Card.Img variant="top" src={filmsing.Poster}/>
               </Card>
             </Col>
           );

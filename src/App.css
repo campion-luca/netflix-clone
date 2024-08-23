@@ -47,7 +47,7 @@ footer {
   color: #f5f5f1;
 }
 
-h3 {
+.testing {
   color: green !important;
 }
 
@@ -95,10 +95,12 @@ h3 {
   font-size: 0.6em;
 }
 
+
+/* DA CONTROLLARE */
 .col img {
   transition: transform 0.2s;
 }
 
-.col img:hover {
+.col :hover {
   transform: scale(1.1);
 }
